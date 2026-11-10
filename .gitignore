@@ -1,0 +1,8 @@
+.profiles/
+dumps/
+screenshots/
+logs/
+__pycache__/
+*.pyc
+*.crdownload
+.acl-recovery/

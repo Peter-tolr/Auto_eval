@@ -1,0 +1,6 @@
+{
+  "profile_dir": ".profiles",
+  "min_avg": 0.9,
+  "submit_wait": 8,
+  "delay_between_forms": 3
+}
