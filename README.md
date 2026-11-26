@@ -17,8 +17,8 @@ python -m pip install selenium
 
 ```json
 {
-  "20240378": {"password": "你的密码", "name": "翟浩男"},
-  "20240001": {"password": "另一个密码", "name": "李四"}
+  "20770888": {"password": "你自己的的密码", "name": "张某三"},
+  "20880001": {"password": "另一个密码", "name": "李某四"}
 }
 ```
 
@@ -26,9 +26,9 @@ python -m pip install selenium
 
 ```powershell
 python pj.py                 # 有多个账号时会出现编号菜单，可手动切换
-python pj.py -a 20240378     # 直接指定账号
-python pj.py -a 20240378 --dry-run    # 只填写、不提交（先看效果）
-python pj.py -a 20240378 --limit 1    # 只做 1 份
+python pj.py -a 20240888     # 直接指定账号
+python pj.py -a 20240678 --dry-run    # 只填写、不提交（先看效果）
+python pj.py -a 20240678 --limit 1    # 只做 1 份
 python pj.py --list          # 列出已配置的账号
 ```
 
